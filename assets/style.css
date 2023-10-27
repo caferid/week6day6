@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(9, 37, 226);
+    background: linear-gradient(90deg, rgba(9, 37, 226, 1) 0%, rgba(193, 10, 10, 1) 50%, rgba(25, 212, 50, 1) 100%);
+    width: 1400px;
+    margin: auto;
+}
+
+.addbtn {
+    width: 200px;
+    align-self: self-end;
+    margin: 50px;
+}
+
+.modal {
+    margin: auto;
+    width: 500px;
+    display: none;
+}
+
+form {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 30px;
+}
+
+label {
+    margin: 10px 0 10px 0;
+}
+
+.active {
+    display: block;
+}
+
+#save {
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    align-self: center;
+}
+
+table {
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+select {
+    font-size: 30px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+tr {
+    text-align: center;
+}
